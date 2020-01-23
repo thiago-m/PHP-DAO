@@ -26,9 +26,15 @@
     // echo $user;
 
     ### Update de usuario
+    // $user = new Usuario();
+    // $user->loadById(5);
+    // $user->update('Larissa e Thiago', 'teste');
+    // echo $user;
+
+    ### Delete de usuario
     $user = new Usuario();
-    $user->loadById(5);
-    $user->update('Larissa e Thiago', 'teste');
+    $user->loadById(4);
+    $user->delete();
     echo $user;
 
 ?>
