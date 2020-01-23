@@ -15,8 +15,8 @@
     // echo json_encode($search);
 
     ## Carregar usuario por login e senha
-    $usuario = new Usuario();
-    $usuario->login('jose', '0123');
-    echo $usuario;
+    // $usuario = new Usuario();
+    // $usuario->login('jose', '0123');
+    // echo $usuario;
 
 ?>

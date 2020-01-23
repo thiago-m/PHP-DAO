@@ -74,6 +74,10 @@
             }
         }
 
+        public function insert() {
+            
+        }
+
         public function __toString() {
             return json_encode(array(
                 "idusuario"=>$this->getIdusuario(),
