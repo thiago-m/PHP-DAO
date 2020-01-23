@@ -21,8 +21,14 @@
 
 
     ### Cadastro de usuario
-    $user = new Usuario('Larissa', 'teste');
-    $user->insert();
+    // $user = new Usuario('Larissa', 'teste');
+    // $user->insert();
+    // echo $user;
+
+    ### Update de usuario
+    $user = new Usuario();
+    $user->loadById(5);
+    $user->update('Larissa e Thiago', 'teste');
     echo $user;
 
 ?>
